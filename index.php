@@ -10,11 +10,12 @@
 
 <body>
     <style>
-    * {
-        /* padding: 0; */
-        /* margin: 0; */
-        font-family: poppins;
-    }
+        * {
+            /* padding: 0; */
+            /* margin: 0; */
+            font-family: poppins;
+        }
+
         body {
             background-color: black;
             color: white;
@@ -167,14 +168,125 @@
         <!-- end crisis -->
 
 
+        <!-- crew -->
+        <style>
+            img.access-visit {
+                position: fixed;
+                right: 18px;
+                bottom: 50px;
+                width: 100px;
+                /* transform: translateZ(34px); */
+                -webkit-transform: scaleX(-1);
+                transform: scaleX(-1);
+            }
+
+            .access-visitt {
+                display: none;
+                transition: 1s;
+            }
+
+            @media screen and (max-width: 375px) {
+                .access-visitt {
+                    position: absolute;
+                    top: 20px;
+                    width: 150px;
+                    left: -73px;
+                    transform: rotate(91deg);
+                    display: block;
+                    z-index: -1;
+                    transition: 1s;
+                }
+            }
+
+            @media screen and (min-width: 375px) and (max-width: 425px) {
+                .access-visitt {
+                    position: absolute;
+                    top: 20px;
+                    width: 161px;
+                    left: -48px;
+                    z-index: -1;
+                    transform: rotate(91deg);
+                    display: block;
+                }
+            }
+
+            @media screen and (min-width: 425px) and (max-width: 768px) {
+                .access-visitt {
+                    position: absolute;
+                    top: -50px;
+                    width: 250px;
+                    filter: blur(20px);
+                    z-index: -1;
+                    left: 0px;
+                    transform: rotate(91deg);
+                    opacity: 80%;
+                    display: block;
+                }
+            }
+
+            @media screen and (min-width: 768px) {
+                .access-visitt {
+                    position: absolute;
+                    top: -50px;
+                    width: 500px;
+                    filter: blur(50px);
+                    z-index: -1;
+                    left: 0px;
+                    transform: rotate(91deg);
+                    opacity: 80%;
+                    display: block;
+                }
+            }
+        </style>
+        <img class="access-visit" src="squid.png" alt="">
+        <img class="access-visitt" src="squid.png" alt="">
 
 
-<!-- footer -->
-<footer>
-    <p style="text-align: center; font-size: 12px;"> Copyright &copy;<script>document.write(new Date().getFullYear())</script> NizarShare All Rights Reserved
-    </p>
-</footer>
-<!-- end footer -->
+        <!-- end crew -->
+
+
+
+        <!-- footer -->
+        <footer>
+            <p style="text-align: center; font-size: 12px;"> Copyright &copy;
+                <script>document.write(new Date().getFullYear())</script> NizarShare All Rights Reserved
+            </p>
+        </footer>
+        <!-- end footer -->
+
+
+
+
+
+
+
+        <!-- blood -->
+        <!-- <style>
+    img.blood {
+    width: 100%;
+    position: absolute;
+    top: -6rem;
+    /* margin-top: -13rem; */
+    z-index: -1;
+    opacity: 50%;
+    filter: blur(10px);
+}
+</style>
+<img class="blood" src="blood.png" alt=""> -->
+
+
+        <!-- end blood -->
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -195,7 +307,7 @@
                 padding: 10px;
                 /* top: 85px; */
                 bottom: 10px;
-                background-color: steelblue;
+                background-color: #cd203f;
                 right: 10px;
                 margin: 0 auto;
             }
