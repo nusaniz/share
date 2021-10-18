@@ -77,8 +77,6 @@
         }
     </style>
 
-    </head>
-
     <body>
 
         <!-- Primary Page Layout
