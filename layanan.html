@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>NizarShare</title>
+</head>
+
+<body>
+    <style>
+        * {
+            /* padding: 0; */
+            /* margin: 0; */
+            font-family: poppins;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            margin-bottom: 2rem;
+        }
+
+
+        .box a {
+            text-decoration: none;
+            color: white;
+            font-family: monospace;
+        }
+
+        section {
+            margin-top: 1.5rem;
+            padding: 0 1rem;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 768px;
+            margin: 0 auto;
+        }
+
+        .ket p {
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 0;
+            font-family: quicksand;
+        }
+
+        h3 {
+            border-bottom: 1px solid;
+            margin-bottom: 0;
+            padding-bottom: 0.7rem;
+            width: 100%;
+            max-width: 10rem;
+            transition: 0.3s;
+        }
+
+        h3:hover {
+            max-width: 15rem;
+
+        }
+
+        img.gp {
+            background-color: white;
+            border-radius: 100%;
+            position: relative;
+            top: 20px;
+            width: 100px;
+            /* opacity: 100%; */
+        }
+    </style>
+
+    <body>
+
+        <!-- Primary Page Layout
+        	================================================== -->
+        <!-- all content goes in here -->
+
+
+        <div class="box mt-4" style="text-align: center;">
+            <div class="container">
+                <h2>.NizarShare</h2>
+                <a href="https://instagram.com/nizarnnarendra">by @nizarnnarendra</a><br>
+                <img class="gp" src="avatar.png" alt="http://anonymouspoem.com/nature-humans/">
+            </div>
+        </div>
+
+
+
+
+        <!-- service -->
+        <style>
+            .card {
+                padding: 15px;
+            }
+
+            .card a.btn {
+                width: 50%;
+                margin: 0 auto;
+            }
+
+            span.region {
+                font-size: 10px;
+                background-color: gold;
+                padding: 5px;
+                width: 120px;
+                border-radius: 5px;
+            }
+
+            span.lock {
+                padding: 5px;
+                text-transform: capitalize;
+                width: 80px;
+                font-size: 12px;
+                position: absolute;
+                top: -10px;
+                right: 10px;
+                /* border-radius: 5px; */
+            }
+
+            .service-title {
+                font-weight: 600;
+            }
+        </style>
+
+        <section class="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col mt-4">
+                        <div class="card">
+                            <h4 class="text-dark service-title">Administrasi</h4>
+                            <span class="region text-dark mb-2">Sidoarjo Jawa Timur</span>
+                            <p class="text-dark">Pengurusan atau pengajuan dokumen pendudukan sipil secara mandiri.
+                                Dokumen (KK, Akta Kematian, dll)</p>
+                            <a href="http://plavon.sidoarjokab.go.id" class="btn btn-primary">Masuk</a>
+                        </div>
+                    </div>
+                    <div class="col mt-4">
+                        <div class="card">
+                            <h4 class="text-dark service-title">E-Samsat</h4>
+                            <span class="region text-dark mb-2">Sidoarjo Jawa Timur</span>
+                            <p class="text-dark">Cari informasi pajak kendaraan kalian dan bisa bayar sekalian.</p>
+                            <a href="https://info.dipendajatim.go.id/esamsat" class="btn btn-primary">Masuk</a>
+                        </div>
+                    </div>
+                    <div class="col mt-4">
+                        <div class="card">
+                            <span class="lock btn-danger text-center">terkunci</span>
+                            <h4 class="text-dark service-title">Vaksinasi</h4>
+                            <span class="region text-dark mb-2">Tarik Sidoarjo</span>
+                            <p class="text-dark">Percepatan pemerataan vaksinasi program nasioanl.</p>
+                            <a href="" class="btn btn-primary">Masuk</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- crisis -->
+        <!-- <style>
+            .main-crisis span {
+                font-family: cursive;
+                text-transform: capitalize;
+                font-size: 30px;
+                /* text-align: right; */
+                position: relative;
+                top: -30px;
+            }
+        </style>
+        <section class="main-crisis">
+            <div class="container">
+                <span>prioritas ekonomi dan keadaan masyarakat</span>
+            </div>
+        </section> -->
+
+
+        <!-- end crisis -->
+
+
+        <!-- crew -->
+        <style>
+            img.access-visit {
+                position: fixed;
+                right: 18px;
+                bottom: 50px;
+                width: 100px;
+                /* transform: translateZ(34px); */
+                -webkit-transform: scaleX(-1);
+                transform: scaleX(-1);
+            }
+
+            .access-visitt {
+                display: none;
+                transition: 1s;
+            }
+
+            @media screen and (max-width: 375px) {
+                .access-visitt {
+                    position: absolute;
+                    top: 20px;
+                    width: 150px;
+                    left: -73px;
+                    transform: rotate(91deg);
+                    display: block;
+                    z-index: -1;
+                    transition: 1s;
+                }
+            }
+
+            @media screen and (min-width: 375px) and (max-width: 425px) {
+                .access-visitt {
+                    position: absolute;
+                    top: 20px;
+                    width: 161px;
+                    left: -48px;
+                    z-index: -1;
+                    transform: rotate(91deg);
+                    display: block;
+                }
+            }
+
+            @media screen and (min-width: 425px) and (max-width: 768px) {
+                .access-visitt {
+                    position: absolute;
+                    top: -50px;
+                    width: 250px;
+                    filter: blur(20px);
+                    z-index: -1;
+                    left: 0px;
+                    transform: rotate(91deg);
+                    opacity: 80%;
+                    display: block;
+                }
+            }
+
+            @media screen and (min-width: 768px) {
+                .access-visitt {
+                    position: absolute;
+                    top: -50px;
+                    width: 500px;
+                    filter: blur(50px);
+                    z-index: -1;
+                    left: 0px;
+                    transform: rotate(91deg);
+                    opacity: 80%;
+                    display: block;
+                }
+            }
+        </style>
+        <!-- <img class="access-visit" src="squid.png" alt=""> -->
+        <img class="access-visitt" src="squid.png" alt="">
+
+
+        <!-- end crew -->
+
+
+
+        <!-- footer -->
+        <footer class="mt-5">
+            <p style="text-align: center; font-size: 12px;"> Copyright &copy;
+                <script>document.write(new Date().getFullYear())</script> NizarShare All Rights Reserved
+            </p>
+        </footer>
+        <!-- end footer -->
+
+
+
+
+
+
+
+
+
+
+
+        <!-- End Document
+        ================================================== -->
+
+
+
+        <!-- boostrap js -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+
+    </body>
+
+</html>
