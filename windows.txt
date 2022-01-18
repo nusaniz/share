@@ -1,0 +1,32 @@
+mengunci wallpaper agar tidak bisa diubah
+
+1.win+r (regedit)
+2.HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies
+3.tambah key (ActiveDesktop), jadi seperti ini HKEY_C URRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop
+4.tambah item (Nochangingwallpaper)
+	Name: Nochangingwallpaper
+	Type: REG_DWORD
+	Data: 0x1
+
+-----------------------------------
+
+memtikan windows update
+
+method 1
+1.win+r (services.msc)
+2.cari (Windows Update)
+3.klik, dan ubah startup type menjadi (disabled)
+
+method 2
+1. win+r (regedit)
+2. HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wuauserv
+3. ubah 1 (rpcss) jadi (rpcssX)
+	Value 7
+	Name: DependOnService
+	Type: REG_MULTI_SZ
+	Data: rpcssX
+4. ubah 2 (svchost) jadi (svchostX)
+	Value 3
+	Name: ImagePath
+	Type: REG_EXPAND_SZ
+	Data: %systemroot%\system32\svchostX.exe -k netsvcs
