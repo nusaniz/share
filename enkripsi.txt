@@ -1,0 +1,37 @@
+MEMASUKKAN CERTIFICATE .PFX KE LAPTOP (pake cmd admin)
+
+1. masuk ke 
+- Trusted Root Certification Authorities (current user)
+- Pesonal (local computer)
+- Trusted Root Certification Authorities (local computer)
+
+CERTUTIL -f -p somePassword -importpfx "somePfx.pfx"
+
+2. masuk ke
+- personal (current user)
+
+certutil -f -user -p nnnn -importpfx "alam.pfx" NoRoot
+
+
+note:
+personal (current user): untuk membuka dokumen yang dienkripsi dengan certificate
+
+
+sc: https://stackoverflow.com/questions/5171117/import-pfx-file-into-particular-certificate-store-from-command-line
+https://itluke.online/2017/09/23/how-to-import-a-certificate-into-the-local-users-store/
+
+-------------------------------------
+
+CEK DAFTAR CERTIFICATE
+
+1. MMC (windows search mmc) untuk cek daftar certificate
+C:\Users\User\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools
+
+2. win+r --> inetcpl.cpl
+
+-------------------------------------
+BAT TO EXE
+
+https://filehippo.com/download_advanced-bat-to-exe-converter/ (saya pake ini)
+
+https://filehippo.com/download_bat-to-exe-converter-x64/
