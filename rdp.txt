@@ -1,0 +1,18 @@
+4 jam 30 menit
+https://www.cloudskillsboost.google/focuses/20872?parent=catalog
+https://www.cloudskillsboost.google/focuses/25305?parent=catalog
+
+site:https://www.cloudskillsboost.google/ intext:"4 hours 30 minutes"
+https://go.qwiklabs.com/qwiklabs-free
+
+Langkah:
+1. bikin akun google gmail
+2. masuk ke https://go.qwiklabs.com/qwiklabs-free
+3. klik accept the challenge! https://inthecloud.withgoogle.com/google-cloud-skills/register.html
+4. klik start the challenge dan daftar akun
+5. tunggu verifikasi email
+6. klik begin instruksi awal dan tunggu sekitar 1 menit (45 menit), lalu end lab
+7. credit di akun menjadi subscription monthly
+8. cari di google "Distributed Machine Learning with Google Cloud ML" (1 jam 30 menit) atau bisa 4 jam 30 menit di atas
+9. compute engine --> create instance
+10. selesai
