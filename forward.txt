@@ -1,0 +1,20 @@
+Tidak dijawab
+*61*no#
+*#61# (cek)
+
+Hp mati / tidak dalam jangkauan
+*62*no#
+*#62# (cek)
+
+Hp sibuk panggilan
+*67*no#
+*#67# (cek)
+
+Cek semua status di atas
+*#21#
+
+Hapus semua forwarding
+##002#
+
+Telp anonim
+#31#no
