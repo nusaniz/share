@@ -1,0 +1,28 @@
+Hosting Gambar	draft 1 by nizar 28/01/2022
+----------------
+
+Apa itu hosting gambar?
+-----------------------
+Hosting gambar adalah sebuah layanan penyimpanan gambar yang gambar tersebut bisa kita bagikan dengan beberapa kode. Layanan hosting gambar memungkinkan individu untuk mengunggah gambar ke situs web Internet. Host gambar kemudian akan menyimpan gambar ke servernya, dan menunjukkan masing-masing jenis kode untuk memungkinkan orang lain melihat gambar itu.
+
+Website
+-------
+1. https://id.imgbb.com/
+2. https://drive.google.com/
+
+Langkah (google drive)
+----------------------
+
+NOTE: File harus publik
+
+- Pola
+	https://drive.google.com/uc?export=view&id=YOUR_ID_FILE
+	
+- Link file google drive
+	https://drive.google.com/file/d/1aYqJI_P9b-R3lyvsUlr4rw36syFjdDEv/view?usp=sharing
+	
+- ID File
+	1aYqJI_P9b-R3lyvsUlr4rw36syFjdDEv
+	
+- Implementasi
+	https://drive.google.com/uc?export=view&id=1aYqJI_P9b-R3lyvsUlr4rw36syFjdDEv
