@@ -1,0 +1,17 @@
+Digital Forensik	draft 1 by nizar 28/01/2022
+----------------
+
+Software Windows
+----------------
+* http://www.guidancesoftware.com/encase-forensic
+* https://accessdata.com/products-services/forensic-toolkit-ftk
+* https://www.x-ways.net/winhex/
+* https://www.mobiledit.com/mobiledit-forensic 
+* Recover My files
+
+Software Linux
+--------------
+* https://www.sleuthkit.org
+* https://www.autopsy.com/
+* https://sourceforge.net/projects/guymager/
+* http://foremost.sourceforge.net/
