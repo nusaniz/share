@@ -1,0 +1,7 @@
+Copy File Google Drive	draft 1 by nizar 28/01/2022
+----------------------
+Salin banyak file google drive otomatis
+
+Link
+----
+https://script.google.com/macros/s/AKfycbxbGNGajrxv-HbX2sVY2OTu7yj9VvxlOMOeQblZFuq7rYm7uyo/exec
