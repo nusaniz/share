@@ -1,0 +1,23 @@
+Mendaptkan domain freenom
+
+NOTE: HARUS DARI USA
+
+Alat
+1. ekstensi vpn chrome https://chrome.google.com/webstore/detail/tunnelbear-vpn/omdakjcmkglenbhjadbccaookpfjihpa
+2. chrome
+
+Website:
+1. cek ip https://ipsaya.com/en/
+2. email https://www.temporary-mail.net
+3. fakename https://www.fakenamegenerator.com/
+4. dot ga, dot ml, dot gq
+
+Langkah:
+1. hapus history (ctrl+h) 24 jam
+2. hidupkan tunnelbear vpn usa
+3. cek ip, pastikan sudah di usa
+4. masuk freenom, ketik domain cth: domain.ga (menggunakan .ga)
+5. checkout domain, masukkan email
+6. tunggu, verifikasi email
+7. isi data diri dengan data fake name dari usa
+8. complete
