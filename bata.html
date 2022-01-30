@@ -1,0 +1,80 @@
+<html>
+<head>
+<title>kalkulaotr</title>
+</head>
+<body>
+
+
+
+<table align="center" border="1" cellpadding="10" style="background: #fdfdfd; border-collapse: collapse;">
+<tbody>
+<tr style="text-align: center;"><td colspan="2" style="background: #253647; color: yellow; font-size: 20px;"><b>Menghitung Jumlah Kebutuhan Bata /m2 </b><br>
+by Ilmubeton.com</td></tr>
+<tr></tr>
+<tr><td>Panjang Bata (P)      </td><td><input id="num1" size="10" style="border-radius: 3px;" type="text" value="19">   Cm   </td></tr>
+<tr><td>Lebar Bata (L)  </td><td><input id="num2" size="10" style="border-radius: 3px;" type="text" value="10"> Cm </td></tr>
+<tr><td>Tebal Bata (T)  </td><td><input id="num5" size="10" style="border-radius: 3px;" type="text" value="5"> Cm </td></tr>
+<tr><td>Kebutuhan Spesi </td><td><input id="num6" size="10" style="border-radius: 3px;" type="text" value="3"> Cm </td></tr>
+<tr style="text-align: center;"><td colspan="2"><button onclick="mol()"> Hitung Jumlah Bata /m2 </button> </td></tr>
+<tr style="text-align: center;"><td colspan="2" id="output" style="background: palegreen; color: red; font-size: 20px;"></td></tr>
+</tbody></table>
+
+<script>
+
+function mol()
+{
+ var num1 = parseFloat(document.getElementById("num1").value);
+ var num2 = parseFloat(document.getElementById("num2").value);
+var num5 = parseFloat(document.getElementById("num5").value);
+var num6 = parseFloat(document.getElementById("num6").value);
+ var mole = (1/(((num1+num6) *(num5+num6))/10000));
+ document.getElementById("output").innerHTML = mole.toFixed(2) + " Bata";
+}
+</script>
+
+
+
+
+
+<table align="center" border="1" cellpadding="10" style="background: #fdfdfd; border-collapse: collapse;">
+<tbody>
+<tr style="text-align: center;"><td colspan="2" style="background: #253647; color: yellow; font-size: 20px;"><b>Menghitung Jumlah Kebutuhan Bata Untuk Luasan Dinding </b><br>
+by Ilmubeton.com</td></tr>
+<tr><td>Jumlah Bata/m2     </td><td><input id="num7" size="10" style="border-radius: 3px;" type="text" value="57">   Bata/m2 </td></tr>
+<tr><td>Panjang Dinding (P)     </td><td><input id="num3" size="10" style="border-radius: 3px;" type="text" value="1">    m  </td></tr>
+<tr><td>Tinggi Dinding (L)  </td><td><input id="num4" size="10" style="border-radius: 3px;" type="text" value="1.15"> m </td></tr>
+<tr style="text-align: center;"><td colspan="2"><button onclick="mol2()"> Hitung Jumlah Kebutuhan Bata </button> </td></tr>
+<tr style="text-align: center;"><td colspan="2" id="output2" style="background: palegreen; color: red; font-size: 20px;"></td></tr>
+</tbody></table>
+
+
+
+<script>
+
+function mol2()
+{
+ var num3 = parseFloat(document.getElementById("num3").value);
+ var num4 = parseFloat(document.getElementById("num4").value);
+var num7 = parseFloat(document.getElementById("num7").value);
+ var mole2 = ((num3*num4) * num7);
+ document.getElementById("output2").innerHTML = mole2.toFixed(1) + " Bata";
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
