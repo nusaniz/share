@@ -6,5 +6,6 @@
   <body>
     <p>Please follow <a href="/lib/Template%20Makalah%20ABCD.doc">this link</a>.</p>
   </body>
+</html>
   
   NOTE: Ubah href
