@@ -1,32 +1,68 @@
-mengunci wallpaper agar tidak bisa diubah
+Tambah user account draft 2 by nizar 1/1/2022
+-----------
 
-1.win+r (regedit)
-2.HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies
-3.tambah key (ActiveDesktop), jadi seperti ini HKEY_C URRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop
-4.tambah item (Nochangingwallpaper)
-	Name: Nochangingwallpaper
-	Type: REG_DWORD
-	Data: 0x1
+Method 1
+--------
+1. control panel, view by category
+2.a. mengubah nama, tipe, setting --> Control Panel\User Accounts\User Accounts
+2.b. daftar user manajemen akun --> Control Panel\User Accounts\User Accounts\Manage Accounts
 
------------------------------------
+Method 2
+--------
+1. CMD (admin)
+2. sintaks
+	NET USER
+	[username [password | *] [options]] [/DOMAIN]
+         username {password | *} /ADD [options] [/DOMAIN]
+         username [/DELETE] [/DOMAIN]
+         username [/TIMES:{times | ALL}]
+         username [/ACTIVE: {YES | NO}]
+		 
+	cth:
+		net user adi adiadi /add
+		net user adi /active:yes
 
-memtikan windows update
 
-method 1
-1.win+r (services.msc)
-2.cari (Windows Update)
-3.klik, dan ubah startup type menjadi (disabled)
+#######################################
 
-method 2
+
+Mengunci wallpaper agar tidak bisa diubah
+-----------------------------------------
+
+Langkah:
+--------
+1. win+r (regedit)
+2. HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies
+3. tambah key (ActiveDesktop), jadi seperti ini HKEY_C URRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop
+4. tambah item (Nochangingwallpaper)
+		Name: Nochangingwallpaper
+		Type: REG_DWORD
+		Data: 0x1
+
+
+#######################################
+
+
+Mematikan windows update
+------------------------
+
+Method 1
+--------
+1. win+r (services.msc)
+2. cari (Windows Update)
+3. klik, dan ubah startup type menjadi (disabled)
+
+Method 2
+--------
 1. win+r (regedit)
 2. HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wuauserv
 3. ubah 1 (rpcss) jadi (rpcssX)
-	Value 7
-	Name: DependOnService
-	Type: REG_MULTI_SZ
-	Data: rpcssX
+		Value 7
+		Name: DependOnService
+		Type: REG_MULTI_SZ
+		Data: rpcssX
 4. ubah 2 (svchost) jadi (svchostX)
-	Value 3
-	Name: ImagePath
-	Type: REG_EXPAND_SZ
-	Data: %systemroot%\system32\svchostX.exe -k netsvcs
+		Value 3
+		Name: ImagePath
+		Type: REG_EXPAND_SZ
+		Data: %systemroot%\system32\svchostX.exe -k netsvcs
