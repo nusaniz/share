@@ -1,13 +1,7 @@
 Tambah user account draft 2 by nizar 1/1/2022
 -----------
 
-Method 1
---------
-1. control panel, view by category
-2.a. mengubah nama, tipe, setting --> Control Panel\User Accounts\User Accounts
-2.b. daftar user manajemen akun --> Control Panel\User Accounts\User Accounts\Manage Accounts
-
-Method 2
+Method 1 Ubah Pengaturan (tambah, hapus, aktivasi, password)
 --------
 1. CMD (admin)
 2. sintaks
@@ -21,6 +15,20 @@ Method 2
 	cth:
 		net user adi adiadi /add
 		net user adi /active:yes
+
+Method 2 Ubah Pengaturan (tambah, hapus, aktivasi, password)
+--------
+1. control panel, view by category
+2.a. mengubah nama, tipe, setting --> Control Panel\User Accounts\User Accounts
+2.b. daftar user manajemen akun --> Control Panel\User Accounts\User Accounts\Manage Accounts
+
+Method 3 Ubah Pengaturan (tambah, hapus, aktivasi, password)
+--------
+1. win+r --> netplwiz
+
+Method 4 Ubah Pengaturan (sign in option)
+--------
+1. Settings -> Accounts -> Sign-in Options
 
 
 #######################################
