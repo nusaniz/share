@@ -74,3 +74,16 @@ Method 2
 		Name: ImagePath
 		Type: REG_EXPAND_SZ
 		Data: %systemroot%\system32\svchostX.exe -k netsvcs
+
+Method 3
+--------
+1. win+r --> gpedit.msc
+2. lokasi
+	computer configuration -> administrative templates -> windows components -> windows update
+	
+	- configure automatic updates (jadi disable)
+	- automatic updates detection frequency
+	
+---------
+---------
+---------
