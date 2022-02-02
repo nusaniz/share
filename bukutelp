@@ -1,0 +1,9 @@
+<html>
+<head>
+  <title>Buku Telepon</title>
+  <link href="https://raw.githubusercontent.com/nusaniz/share.io/main/favicon.ico" rel="icon" sizes="32x32">
+</head>
+<body>
+<div id="list"><p><iframe src="bukutelp.txt" width=100% height=100% frameborder=0></iframe</p></div>
+</body>
+</html>
