@@ -18,7 +18,7 @@ A. Akun Google (belum ada email pemulihan)
 	Dj82*dhsjibx
 	
 B. Akun Collin Collage Edu
-   -----------
+   -----------------------
    1. Copy from email google
 ----------------------------
 Dear Nichole Jacobs,
@@ -64,12 +64,13 @@ Collin College
 
 	
 	2. Onelogin Activated QRcode
---------------------------------	otpauth://totp/collin:njacobs11?secret=01-1547078&issuer=OneLogin
+------------------------------------
+	otpauth://totp/collin:njacobs11?secret=01-1547078&issuer=OneLogin
    
 
 	3. Panduan Bikin Akun
--------------------------
-https://youtu.be/JjGJQxG-EBI
+-----------------------------
+	https://youtu.be/JjGJQxG-EBI
 
 ###################################
 
