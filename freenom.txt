@@ -9,7 +9,9 @@ Alat
 Website:
 1. cek ip https://ipsaya.com/en/
 2. email https://www.temporary-mail.net
-3. fakename https://www.fakenamegenerator.com/
+3. fakename
+    - https://www.fakenamegenerator.com/
+    - https://www.fakexy.com/ (rekomendasi)
 4. dot ga, dot ml, dot gq
 
 Langkah:
