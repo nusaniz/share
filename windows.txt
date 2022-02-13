@@ -84,6 +84,33 @@ Method 3
 	- configure automatic updates (jadi disable)
 	- automatic updates detection frequency
 	
----------
----------
----------
+	
+#######################################
+
+Membuat FTP
+-----------
+A. Mengaktifkan fitur FTP
+-------------------------
+1. control panel view by category
+2. Control Panel\Programs
+3. Turn windows features on or off
+4. Ceklis
+	a. Internet information services
+		1. FTP Server
+			- FTP Extensibility
+			- FTP Service
+		2. Web Management Tools
+			- IIS Management Console
+
+B. Buka program FTP
+-------------------
+1. Jalankan Internet Information Services (IIS) Manager
+	Control Panel\System and Security\Administrative Tools\Internet Information Services (IIS) Manager
+			
+			
+			
+			
+			
+
+#######################################
+#######################################
