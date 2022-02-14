@@ -1,3 +1,28 @@
+######################
+
+Steganography
+-------------
+
+NOTE:
+	Hanya bisa menggunakan arsip .RAR
+
+Alat
+----
+1. CMD
+2. Winrar
+
+Syntax CMD
+----------
+copy /b foto.png+data.rar foto1.png
+
+Langkah
+-------
+copy /b foto.png+data.rar foto1.png
+
+
+######################
+
+
 Tambah user account draft 2 by nizar 1/1/2022
 -----------
 
