@@ -142,6 +142,17 @@ Ikuti langkah-langkah berikut ini:
 7. Klik dua kali pada key NoAUAsDefaultShutdownOption > ganti Value data menjadi 1 > klik OK
 8. Tutup aplikasi Regsitry Editor dan Restart komputerAnda.
 
+ATAU copy kode ini dan simpan dengan format (.reg)
+--
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"DetectionFrequencyEnabled"=dword:00000000
+"NoAutoUpdate"=dword:00000001
+"NoAUShutdownOption"=dword:00000001
+"NoAUAsDefaultShutdownOption"=dword:00000001
+--
+
 
 Method 6 Menggunakan Group Policy Editor
 ----------------------------------------
