@@ -109,7 +109,58 @@ Method 3
 	- configure automatic updates (jadi disable)
 	- automatic updates detection frequency
 	
-	
+Method 4 Mengubah fungsi tombol power
+-------------------------------------
+Untuk mematikan Windows 10 tanpa menginstall update Anda bisa menggunakan tombol power di laptop (tombol fisik).
+
+Tapi yang dimaksud bukanlah melakukan force shut down dengan menekan dan menahan tombol power selama 5-10 detik. Kita harus mengubah terlebih dahulu fungsi tombol power menjadi perintah shut down.
+
+Ikuti langkah-langkah berikut ini:
+
+1. Tekan tombol Windows+R pada keyboard
+2. Ketik: powercfg.cpl > klik OK
+3. Pada panel sebelah kiri klik pada menu Choose what the power button does
+4. Perhatikan pengaturan Power and sleep button settings
+5. Pada pilihan When I press the power button ganti menjadi Shutdown
+6. Klik tombol Save changes lalu tutup jendela pengaturan
+7. Setelah mengganti fungsi tombol power dengan cara di atas, maka Anda sudah bisa shut down komputer tanpa menginstall update dengan cara menekan langsung tombol power pada laptop atau PC.
+
+
+Method 5 Menggunakan Regedit
+----------------------------
+Cara pertama adalah menggunakan Registry Editor atau Regedit. Ini adalah metode yang bisa Anda gunakan untuk menghilangkan tombol Update and Shut down dan Update and Restart secara permanen, dengan kata lain tombol ini tidak akan muncul lagi di kemudian hari meskipun Windows 10 Anda baru saja mendownload update.
+
+Ikuti langkah-langkah berikut ini:
+
+1. Buka aplikasi Registry Editor dengan cara tekan tombol Windows+R pada keyboard > ketik regedit > klik OK.
+2. Setelah aplikasi Regedit terbuka masuk ke direktori:
+		HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU
+3. Klik kanan pada folder WindowsUpdate > pilih New > Key > beri nama AU
+4. Selanjutnya masuk ke folder AU > pada panel sebelah kanan, klik kanan pada area kosong > pilih New > pilih DWORD Value > beri nama NoAUShutdownOption
+5. Klik kanan lagi pada area kosong kemudian pilih DWORD Value > beri nama NoAUAsDefaultShutdownOption
+6. Klik dua kali pada key NoAUShutdownOption yang baru dibuat > ganti Value data menjadi 1 > klik OK
+7. Klik dua kali pada key NoAUAsDefaultShutdownOption > ganti Value data menjadi 1 > klik OK
+8. Tutup aplikasi Regsitry Editor dan Restart komputerAnda.
+
+
+Method 6 Menggunakan Group Policy Editor
+----------------------------------------
+Cara menghilangkan Update and Shut down yang selanjutnya adalah menggunakan program gpedit.
+
+Ikuti langkah-langkah berikut ini:
+
+1. Tekan tombol Windows+R pada keyboard untuk memunculkan jendela RUN
+2. Setelah itu ketik perintah: gpedit.msc
+3. Klik OK
+4. Setelah program Group Policy Editor terbuka, masuk ke direktori berikut ini:
+		Computer configuration > Administrative templates > Windows Components > Windows Update
+		
+5. Pada panel sebelah kanan temukan dan klik dua kali pada Do not display ‘Install Updates and Shut Down’ option in Shut Down Windows dialog box > Centang pada opsi Enabled > klik OK
+6. Selanjutnya temukan dan klik dua kali pada Do not adjust default option to ‘Install Updates and Shut Down’ in Shut Down Windows dialog box > Centang pada opsi Enabled > klik OK
+
+Setelah itu Restart atau Shutdown komputer Anda seperti biasa.
+
+
 #######################################
 
 Membuat FTP
