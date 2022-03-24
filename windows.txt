@@ -1,4 +1,22 @@
 ######################
+Backup & restore google chrome
+------------------------------
+inc: password, extenstion, bookmark
+
+1. paste di explorer
+	%LOCALAPPDATA%\Google\Chrome
+	
+2. copy folder (User Data) ke tepat backup lain
+3. selesai
+
+Restore
+-------
+1. Paste folder (User Data) yang telah dibackup ke tujuan perangkat baru
+	%LOCALAPPDATA%\Google\Chrome
+
+2. selesai
+
+######################
 
 Steganography
 -------------
