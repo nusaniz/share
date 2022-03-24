@@ -16,6 +16,23 @@ Restore
 
 2. selesai
 
+Export password
+---------------
+1. paste di chrome
+	chrome://settings/passwords
+2. klik titik 3, EXPORT PASSWORD
+3. selesai (format .csv)
+
+Import password
+---------------
+1. paste di chrome
+	chrome://flags/##password-import
+2. ubah jadi ENABLE
+3. paste di chrome
+	chrome://settings/passwords
+4. klik titik 3, IMPORT PASSWORD
+5. selesai
+
 ######################
 
 Steganography
