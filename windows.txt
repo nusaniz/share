@@ -1,3 +1,25 @@
+Keybooard Search Win 10 Bisa Diketik
+------------------------------------
+
+1. win+r (regedit)
+	Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+2. klik kanan (New String)
+3. beri nama (KeyboardON)
+4. enter, dan paste path dibawah ini ke bagian kolom (value data)
+	c:\Windows\System32\ctfmon.exe
+5. selesai
+
+#################################################
+
+Menghilangkan "Manage by your organization" di google chrome
+------------------------------------------------------------
+
+1. win+r (regedit)
+	Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google
+	Computer\HKEY_CURRENT_USER\SOFTWARE\Policies\Google
+2. hapus folder (Chrome)
+3. selesai
+
 ######################
 aktivasi win 10
 
